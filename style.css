@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  padding: 2rem;
+}
+
+.rating-bars {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1.5rem;
+  width: 50rem;
+  margin: 1rem;
+}
+
+.single-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.single-bar .count {
+  width: 10rem;
+}
+
+.single-bar .percentage {
+  width: 1.5rem;
+}
+
+.single-bar .bar {
+  position: relative;
+  flex-grow: 1;
+  height: 1rem;
+  background-color: #efeeee;
+  border-radius: 2rem;
+}
+
+.single-bar .progress-bar {
+  position: absolute;
+  height: 1rem;
+  background-color: rgb(145, 3, 145);
+  border-radius: 2rem;
+}
